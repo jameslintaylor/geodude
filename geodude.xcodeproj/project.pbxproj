@@ -8,40 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		24032A451C7141C10027486A /* UnitRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24032A441C7141C10027486A /* UnitRepresentable.swift */; };
-		24A3AF621C6ED9B600F21382 /* geodude.h in Headers */ = {isa = PBXBuildFile; fileRef = 24A3AF611C6ED9B600F21382 /* geodude.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		24A3AF6F1C6EDAF200F21382 /* ZeroRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A3AF691C6EDAF200F21382 /* ZeroRepresentable.swift */; };
-		24A3AF701C6EDAF200F21382 /* Negatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A3AF6A1C6EDAF200F21382 /* Negatable.swift */; };
-		24A3AF711C6EDAF200F21382 /* IntervalVariableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A3AF6B1C6EDAF200F21382 /* IntervalVariableType.swift */; };
-		24A3AF721C6EDAF200F21382 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A3AF6C1C6EDAF200F21382 /* Point.swift */; };
-		24A3AF731C6EDAF200F21382 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A3AF6D1C6EDAF200F21382 /* Size.swift */; };
-		24A3AF741C6EDAF200F21382 /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A3AF6E1C6EDAF200F21382 /* Rectangle.swift */; };
-		2A337F6F1CC68805006B71FD /* DoubleConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A337F6E1CC68805006B71FD /* DoubleConvertible.swift */; };
-		2A337F751CC68F18006B71FD /* PointConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A337F741CC68F18006B71FD /* PointConvertible.swift */; };
-		2A337F771CC690DC006B71FD /* Translation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A337F761CC690DC006B71FD /* Translation.swift */; };
-		2AD3C40A1CC6793000479785 /* Trigonometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD3C4091CC6793000479785 /* Trigonometry.swift */; };
-		2AD3C40E1CC67A4000479785 /* Heading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD3C40D1CC67A4000479785 /* Heading.swift */; };
-		2AD3C4111CC67DAC00479785 /* CGGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD3C4101CC67DAC00479785 /* CGGeometry.swift */; };
+		24A3AF711C6EDAF200F21382 /* IntervalVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A3AF6B1C6EDAF200F21382 /* IntervalVariable.swift */; };
+		24A3AF721C6EDAF200F21382 /* GDPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A3AF6C1C6EDAF200F21382 /* GDPoint.swift */; };
+		24A3AF731C6EDAF200F21382 /* GDSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A3AF6D1C6EDAF200F21382 /* GDSize.swift */; };
+		24A3AF741C6EDAF200F21382 /* GDRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A3AF6E1C6EDAF200F21382 /* GDRect.swift */; };
+		2A337F6F1CC68805006B71FD /* TrigonometricType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A337F6E1CC68805006B71FD /* TrigonometricType.swift */; };
+		2AD3C4111CC67DAC00479785 /* CGInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD3C4101CC67DAC00479785 /* CGInterface.swift */; };
 		2AD3C4131CC6817D00479785 /* CGFloatConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD3C4121CC6817D00479785 /* CGFloatConvertible.swift */; };
+		A9ACBDD71CED097E00E52FB4 /* Translatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ACBDD61CED097E00E52FB4 /* Translatable.swift */; };
+		A9ACBDDD1CED0EFB00E52FB4 /* ArithmeticType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ACBDDC1CED0EFB00E52FB4 /* ArithmeticType.swift */; };
+		A9ACBDE01CED14A800E52FB4 /* Scalable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ACBDDF1CED14A800E52FB4 /* Scalable.swift */; };
+		A9ACBDE21CED1E1A00E52FB4 /* PiRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ACBDE11CED1E1A00E52FB4 /* PiRepresentable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		24032A441C7141C10027486A /* UnitRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitRepresentable.swift; sourceTree = "<group>"; };
 		24A3AF5E1C6ED9B600F21382 /* geodude.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = geodude.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		24A3AF611C6ED9B600F21382 /* geodude.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = geodude.h; sourceTree = "<group>"; };
 		24A3AF631C6ED9B600F21382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24A3AF691C6EDAF200F21382 /* ZeroRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZeroRepresentable.swift; sourceTree = "<group>"; };
-		24A3AF6A1C6EDAF200F21382 /* Negatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Negatable.swift; sourceTree = "<group>"; };
-		24A3AF6B1C6EDAF200F21382 /* IntervalVariableType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntervalVariableType.swift; sourceTree = "<group>"; };
-		24A3AF6C1C6EDAF200F21382 /* Point.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
-		24A3AF6D1C6EDAF200F21382 /* Size.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Size.swift; sourceTree = "<group>"; };
-		24A3AF6E1C6EDAF200F21382 /* Rectangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
-		2A337F6E1CC68805006B71FD /* DoubleConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleConvertible.swift; sourceTree = "<group>"; };
-		2A337F741CC68F18006B71FD /* PointConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointConvertible.swift; sourceTree = "<group>"; };
-		2A337F761CC690DC006B71FD /* Translation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Translation.swift; sourceTree = "<group>"; };
-		2AD3C4091CC6793000479785 /* Trigonometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trigonometry.swift; sourceTree = "<group>"; };
-		2AD3C40D1CC67A4000479785 /* Heading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Heading.swift; sourceTree = "<group>"; };
-		2AD3C4101CC67DAC00479785 /* CGGeometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGGeometry.swift; sourceTree = "<group>"; };
+		24A3AF6B1C6EDAF200F21382 /* IntervalVariable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntervalVariable.swift; sourceTree = "<group>"; };
+		24A3AF6C1C6EDAF200F21382 /* GDPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GDPoint.swift; sourceTree = "<group>"; };
+		24A3AF6D1C6EDAF200F21382 /* GDSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GDSize.swift; sourceTree = "<group>"; };
+		24A3AF6E1C6EDAF200F21382 /* GDRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GDRect.swift; sourceTree = "<group>"; };
+		2A337F6E1CC68805006B71FD /* TrigonometricType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrigonometricType.swift; sourceTree = "<group>"; };
+		2AD3C4101CC67DAC00479785 /* CGInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGInterface.swift; sourceTree = "<group>"; };
 		2AD3C4121CC6817D00479785 /* CGFloatConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFloatConvertible.swift; sourceTree = "<group>"; };
+		A9ACBDD61CED097E00E52FB4 /* Translatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Translatable.swift; sourceTree = "<group>"; };
+		A9ACBDDC1CED0EFB00E52FB4 /* ArithmeticType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArithmeticType.swift; sourceTree = "<group>"; };
+		A9ACBDDF1CED14A800E52FB4 /* Scalable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scalable.swift; sourceTree = "<group>"; };
+		A9ACBDE11CED1E1A00E52FB4 /* PiRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PiRepresentable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,16 +51,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		24032A471C7157620027486A /* Geometry */ = {
-			isa = PBXGroup;
-			children = (
-				24A3AF6C1C6EDAF200F21382 /* Point.swift */,
-				24A3AF6D1C6EDAF200F21382 /* Size.swift */,
-				24A3AF6E1C6EDAF200F21382 /* Rectangle.swift */,
-			);
-			name = Geometry;
-			sourceTree = "<group>";
-		};
 		24A3AF541C6ED9B600F21382 = {
 			isa = PBXGroup;
 			children = (
@@ -84,12 +70,12 @@
 		24A3AF601C6ED9B600F21382 /* geodude */ = {
 			isa = PBXGroup;
 			children = (
-				24A3AF611C6ED9B600F21382 /* geodude.h */,
 				24A3AF631C6ED9B600F21382 /* Info.plist */,
+				24A3AF6C1C6EDAF200F21382 /* GDPoint.swift */,
+				24A3AF6D1C6EDAF200F21382 /* GDSize.swift */,
+				24A3AF6E1C6EDAF200F21382 /* GDRect.swift */,
 				2AD3C40B1CC679DE00479785 /* Protocols */,
-				24032A471C7157620027486A /* Geometry */,
-				2AD3C4141CC6822D00479785 /* CoreGraphics */,
-				2AD3C40C1CC67A2500479785 /* Math */,
+				2AD3C4141CC6822D00479785 /* CG */,
 			);
 			path = geodude;
 			sourceTree = "<group>";
@@ -97,33 +83,49 @@
 		2AD3C40B1CC679DE00479785 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				24A3AF6B1C6EDAF200F21382 /* IntervalVariableType.swift */,
-				24A3AF691C6EDAF200F21382 /* ZeroRepresentable.swift */,
-				24032A441C7141C10027486A /* UnitRepresentable.swift */,
-				24A3AF6A1C6EDAF200F21382 /* Negatable.swift */,
-				2A337F6E1CC68805006B71FD /* DoubleConvertible.swift */,
-				2A337F741CC68F18006B71FD /* PointConvertible.swift */,
+				24A3AF6B1C6EDAF200F21382 /* IntervalVariable.swift */,
+				A9ACBDDA1CED0E8200E52FB4 /* Representable */,
+				A9ACBDDB1CED0E8F00E52FB4 /* Math */,
+				A9ACBDDE1CED111400E52FB4 /* Transform */,
 			);
 			name = Protocols;
 			sourceTree = "<group>";
 		};
-		2AD3C40C1CC67A2500479785 /* Math */ = {
+		2AD3C4141CC6822D00479785 /* CG */ = {
 			isa = PBXGroup;
 			children = (
-				2AD3C4091CC6793000479785 /* Trigonometry.swift */,
-				2AD3C40D1CC67A4000479785 /* Heading.swift */,
-				2A337F761CC690DC006B71FD /* Translation.swift */,
+				2AD3C4121CC6817D00479785 /* CGFloatConvertible.swift */,
+				2AD3C4101CC67DAC00479785 /* CGInterface.swift */,
+			);
+			name = CG;
+			sourceTree = "<group>";
+		};
+		A9ACBDDA1CED0E8200E52FB4 /* Representable */ = {
+			isa = PBXGroup;
+			children = (
+				24A3AF691C6EDAF200F21382 /* ZeroRepresentable.swift */,
+				24032A441C7141C10027486A /* UnitRepresentable.swift */,
+				A9ACBDE11CED1E1A00E52FB4 /* PiRepresentable.swift */,
+			);
+			name = Representable;
+			sourceTree = "<group>";
+		};
+		A9ACBDDB1CED0E8F00E52FB4 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				2A337F6E1CC68805006B71FD /* TrigonometricType.swift */,
+				A9ACBDDC1CED0EFB00E52FB4 /* ArithmeticType.swift */,
 			);
 			name = Math;
 			sourceTree = "<group>";
 		};
-		2AD3C4141CC6822D00479785 /* CoreGraphics */ = {
+		A9ACBDDE1CED111400E52FB4 /* Transform */ = {
 			isa = PBXGroup;
 			children = (
-				2AD3C4121CC6817D00479785 /* CGFloatConvertible.swift */,
-				2AD3C4101CC67DAC00479785 /* CGGeometry.swift */,
+				A9ACBDD61CED097E00E52FB4 /* Translatable.swift */,
+				A9ACBDDF1CED14A800E52FB4 /* Scalable.swift */,
 			);
-			name = CoreGraphics;
+			name = Transform;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,7 +135,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24A3AF621C6ED9B600F21382 /* geodude.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,20 +205,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AD3C40A1CC6793000479785 /* Trigonometry.swift in Sources */,
-				2A337F751CC68F18006B71FD /* PointConvertible.swift in Sources */,
-				24A3AF721C6EDAF200F21382 /* Point.swift in Sources */,
-				24A3AF731C6EDAF200F21382 /* Size.swift in Sources */,
-				2AD3C40E1CC67A4000479785 /* Heading.swift in Sources */,
-				24A3AF711C6EDAF200F21382 /* IntervalVariableType.swift in Sources */,
+				24A3AF721C6EDAF200F21382 /* GDPoint.swift in Sources */,
+				24A3AF731C6EDAF200F21382 /* GDSize.swift in Sources */,
+				24A3AF711C6EDAF200F21382 /* IntervalVariable.swift in Sources */,
+				A9ACBDDD1CED0EFB00E52FB4 /* ArithmeticType.swift in Sources */,
 				2AD3C4131CC6817D00479785 /* CGFloatConvertible.swift in Sources */,
-				24A3AF741C6EDAF200F21382 /* Rectangle.swift in Sources */,
+				A9ACBDE01CED14A800E52FB4 /* Scalable.swift in Sources */,
+				24A3AF741C6EDAF200F21382 /* GDRect.swift in Sources */,
 				24A3AF6F1C6EDAF200F21382 /* ZeroRepresentable.swift in Sources */,
 				24032A451C7141C10027486A /* UnitRepresentable.swift in Sources */,
-				24A3AF701C6EDAF200F21382 /* Negatable.swift in Sources */,
-				2A337F771CC690DC006B71FD /* Translation.swift in Sources */,
-				2A337F6F1CC68805006B71FD /* DoubleConvertible.swift in Sources */,
-				2AD3C4111CC67DAC00479785 /* CGGeometry.swift in Sources */,
+				A9ACBDD71CED097E00E52FB4 /* Translatable.swift in Sources */,
+				2A337F6F1CC68805006B71FD /* TrigonometricType.swift in Sources */,
+				A9ACBDE21CED1E1A00E52FB4 /* PiRepresentable.swift in Sources */,
+				2AD3C4111CC67DAC00479785 /* CGInterface.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

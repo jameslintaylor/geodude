@@ -1,6 +1,6 @@
 //
 //  UnitRepresentable.swift
-//  PencilBox
+//  geodude
 //
 //  Created by James Taylor on 2016-02-14.
 //  Copyright © 2016 James Taylor. All rights reserved.
@@ -8,12 +8,10 @@
 
 import Foundation
 
-/// Instances of conforming types need to provide a "Unit" value.
+/// Instances of conforming types need to provide a static `Unit` value.
 public protocol UnitRepresentable {
     static var unit: Self { get }
 }
-
-// + Standard library conformance
 
 extension Int: UnitRepresentable { public static var unit = Int(1) }
 extension Int8: UnitRepresentable { public static var unit = Int8(1) }

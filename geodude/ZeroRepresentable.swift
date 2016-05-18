@@ -1,6 +1,6 @@
 //
 //  ZeroRepresentable.swift
-//  MetalEffects
+//  geodude
 //
 //  Created by James Taylor on 2016-02-06.
 //  Copyright © 2016 James Taylor. All rights reserved.
@@ -8,12 +8,10 @@
 
 import Foundation
 
-/// Instances of conforming types need to provide a "Zero" value.
+/// Instances of conforming types need to provide a static `Zero` value.
 public protocol ZeroRepresentable {
     static var zero: Self { get }
 }
-
-// + Standard library conformance
 
 extension Int: ZeroRepresentable { public static var zero = Int(0) }
 extension Int8: ZeroRepresentable { public static var zero = Int8(0) }
