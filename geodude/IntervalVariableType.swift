@@ -36,3 +36,5 @@ extension UInt64: IntervalVariableType {}
 extension Float: IntervalVariableType {}
 extension Double: IntervalVariableType {}
 extension CGFloat: IntervalVariableType {}
+
+// Random comment test 
