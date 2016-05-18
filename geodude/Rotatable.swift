@@ -1,5 +1,5 @@
 //
-//  Scalable.swift
+//  Rotatable.swift
 //  geodude
 //
 //  Created by James Taylor on 2016-05-18.
@@ -9,18 +9,18 @@
 import Foundation
 
 /// Conforming types can be scaled.
-public protocol Scalable {
-    associatedtype Factor
+public protocol Rotatable {
+    associatedtype Angle
     
-    mutating func scale(_: Factor)
+    mutating func rotate(_: Angle)
 }
 
-extension Scalable {
+extension Rotatable {
     
     /// Non-mutating variant of `translate`.
-    func scaled(_ f: Factor) -> Self {
+    func scaled(_ a: Angle) -> Self {
         var copy = self
-        copy.scale(f)
+        copy.rotate(a)
         return copy
     }
 }

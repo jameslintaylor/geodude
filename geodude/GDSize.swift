@@ -14,7 +14,19 @@ public struct GDSize<Unit: IntervalVariable> {
     public var width: Unit
     public var height: Unit
     
+    public init(width: Unit, height: Unit) {
+        self.width = width
+        self.height = height
+    }
+    
     var area: Unit { return width * height }
+}
+
+// Map
+public extension GDSize {
+    func map <T> (f: (Unit) throws -> T) rethrows -> GDSize<T> {
+        return try GDSize<T>(width: f(width), height: f(height))
+    }
 }
 
 // Equatable

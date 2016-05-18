@@ -16,6 +16,7 @@
 		2A337F6F1CC68805006B71FD /* TrigonometricType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A337F6E1CC68805006B71FD /* TrigonometricType.swift */; };
 		2AD3C4111CC67DAC00479785 /* CGInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD3C4101CC67DAC00479785 /* CGInterface.swift */; };
 		2AD3C4131CC6817D00479785 /* CGFloatConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD3C4121CC6817D00479785 /* CGFloatConvertible.swift */; };
+		A97EC8261CED2B6800A036C3 /* Rotatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97EC8251CED2B6800A036C3 /* Rotatable.swift */; };
 		A9ACBDD71CED097E00E52FB4 /* Translatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ACBDD61CED097E00E52FB4 /* Translatable.swift */; };
 		A9ACBDDD1CED0EFB00E52FB4 /* ArithmeticType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ACBDDC1CED0EFB00E52FB4 /* ArithmeticType.swift */; };
 		A9ACBDE01CED14A800E52FB4 /* Scalable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ACBDDF1CED14A800E52FB4 /* Scalable.swift */; };
@@ -34,6 +35,7 @@
 		2A337F6E1CC68805006B71FD /* TrigonometricType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrigonometricType.swift; sourceTree = "<group>"; };
 		2AD3C4101CC67DAC00479785 /* CGInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGInterface.swift; sourceTree = "<group>"; };
 		2AD3C4121CC6817D00479785 /* CGFloatConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFloatConvertible.swift; sourceTree = "<group>"; };
+		A97EC8251CED2B6800A036C3 /* Rotatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rotatable.swift; sourceTree = "<group>"; };
 		A9ACBDD61CED097E00E52FB4 /* Translatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Translatable.swift; sourceTree = "<group>"; };
 		A9ACBDDC1CED0EFB00E52FB4 /* ArithmeticType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArithmeticType.swift; sourceTree = "<group>"; };
 		A9ACBDDF1CED14A800E52FB4 /* Scalable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scalable.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 			children = (
 				A9ACBDD61CED097E00E52FB4 /* Translatable.swift */,
 				A9ACBDDF1CED14A800E52FB4 /* Scalable.swift */,
+				A97EC8251CED2B6800A036C3 /* Rotatable.swift */,
 			);
 			name = Transform;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				24A3AF6F1C6EDAF200F21382 /* ZeroRepresentable.swift in Sources */,
 				24032A451C7141C10027486A /* UnitRepresentable.swift in Sources */,
 				A9ACBDD71CED097E00E52FB4 /* Translatable.swift in Sources */,
+				A97EC8261CED2B6800A036C3 /* Rotatable.swift in Sources */,
 				2A337F6F1CC68805006B71FD /* TrigonometricType.swift in Sources */,
 				A9ACBDE21CED1E1A00E52FB4 /* PiRepresentable.swift in Sources */,
 				2AD3C4111CC67DAC00479785 /* CGInterface.swift in Sources */,

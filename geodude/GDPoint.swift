@@ -13,6 +13,18 @@ import Foundation
 public struct GDPoint<Unit: IntervalVariable> {
     public var x: Unit
     public var y: Unit
+    
+    public init(x: Unit, y: Unit) {
+        self.x = x
+        self.y = y
+    }
+}
+
+// Map
+public extension GDPoint {
+    func map <T> (f: (Unit) throws -> T) rethrows -> GDPoint<T> {
+        return try GDPoint<T>(x: f(x), y: f(y))
+    }
 }
 
 // Equatable
@@ -76,7 +88,7 @@ public extension GDPoint where Unit: protocol<TrigonometricType, PiRepresentable
     }
 }
 
-// Helpers
+// MARK: Helpers
 
 private enum Quadrant {
     case one, two, three, four

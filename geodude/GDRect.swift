@@ -13,6 +13,11 @@ import Foundation
 public struct GDRect<Unit: IntervalVariable> {
     public var origin: GDPoint<Unit>
     public var size: GDSize<Unit>
+    
+    public init(origin: GDPoint<Unit>, size: GDSize<Unit>) {
+        self.origin = origin
+        self.size = size
+    }
 }
 
 // Alternate initializers

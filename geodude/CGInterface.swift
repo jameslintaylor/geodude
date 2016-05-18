@@ -32,3 +32,4 @@ public extension CGRect {
 public extension GDRect where Unit: CGFloatConvertible {
     var cg: CGRect { return CGRect(origin: origin.cg, size: size.cg) }
 }
+ 
